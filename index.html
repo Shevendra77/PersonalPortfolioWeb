@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<nav>
+
+  <h2 class="logo">Shevendra Singh</h2>
+
+  <!-- 🍔 MENU ICON -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+    <li>
+      <a href="shevendra_resume1.pdf" target="_blank" class="resume-btn">
+        Resume
+      </a>
+    </li>
+
+    <!-- 🌙 DARK MODE -->
+    <li>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </li>
+  </ul>
+
+</nav>
+
+
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    
+        <h1>Hi, I'm Shevendra</h1>
+
+
+    <!-- 🔥 Auto Typing Line -->
+    <h3 id="typing-text"></h3>
+
+    <p>
+      Building dynamic and scalable web applications using Java and modern technologies,
+      with a strong focus on performance, problem-solving, and continuous learning.
+    </p>
+
+    <div class="buttons">
+      <a href="shevendra_resume1.pdf" class="btn btn-light" download>
+    Download Resume
+</a>
+
+      <a href="#contact" class="btn btn-light">
+        Get In Touch
+      </a>
+
+      <a href="#projects" class="btn btn-outline">
+        View Projects
+      </a>
+    </div>
+  </div>
+
+  <!-- IMAGE RIGHT SIDE -->
+  <div class="hero-img">
+    <img src="image2.jpg" alt="profile">
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about" style="padding:100px 20px; max-width:900px; margin:auto; text-align:center;">
+
+  <h2 class="skills-title">About Me</h2>
+
+  <div style="margin-top:30px;">
+
+    <p style="line-height:1.8; font-size:18px; margin-bottom:20px; opacity:0; transform:translateY(30px); animation:fadeUp 1s ease forwards;">
+      Hello! I'm <strong>Shevendra Singh Chandel</strong>, a Computer Science Engineering student and an aspiring
+      <strong>Java Backend Developer</strong> with a strong interest in designing scalable, secure, and high-performance applications.
+      I enjoy transforming ideas into real-world software solutions using modern technologies.
+    </p>
+
+    <p style="line-height:1.8; font-size:18px; margin-bottom:20px; opacity:0; transform:translateY(30px); animation:fadeUp 1s ease forwards; animation-delay:0.2s;">
+      My technical expertise includes <strong>Java, Spring Boot, Spring Security, Hibernate, REST APIs,
+      Microservices, Apache Kafka, MySQL, MongoDB, Docker, Git, GitHub, HTML, CSS, JavaScript, and React</strong>.
+      I continuously improve my problem-solving skills by building real-world projects and practicing Data Structures & Algorithms.
+    </p>
+
+    <p style="line-height:1.8; font-size:18px; margin-bottom:30px; opacity:0; transform:translateY(30px); animation:fadeUp 1s ease forwards; animation-delay:0.4s;">
+      I have developed multiple full-stack and backend projects, including an
+      <strong>Education Payment System using Microservices, Apache Kafka, and Razorpay</strong>,
+      an <strong>E-Commerce Platform</strong>, a <strong>BookMyShow Clone</strong>,
+      an <strong>AI Resume Checker</strong>, and an
+      <strong>Institute Resource Planner</strong>.
+      Currently, I am looking for an opportunity where I can apply my technical skills,
+      contribute to meaningful projects, and grow as a software developer.
+    </p>
+
+    <p class="fun-fact">
+    🚀 <strong>Fun Fact:</strong> I regularly practice Data Structures & Algorithms to strengthen my logical thinking and coding skills.
+</p>
+
+
+    <a href="shevendra_resume1.pdf" download class="resume-btn"
+   style="opacity:0; transform:translateY(30px); animation:fadeUp 1s ease forwards; animation-delay:0.6s;">
+    <i class="fas fa-download"></i> Download Resume
+</a>
+
+  </div>
+</section>
+
+<!-- ================= STATS SECTION ================= -->
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="7">0</h2>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="100">0</h2>
+            <p>DSA Problems Solved</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="4">0</h2>
+            <p>Certifications Earned</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="2">0</h2>
+            <p>Years Learning</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= Skills Section ================= -->
+
+<!-- ================= Skills Section ================= -->
+
+<section id="skills" class="skills-section">
+
+    <h2 class="skills-title"
+        style="text-align:center; width:100%; display:block; color:#2563eb;">
+        Skills & Technologies
+    </h2>
+
+    <div class="skills-grid">
+
+        <!-- Programming Languages -->
+        <div class="skill-card">
+            <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+
+            <div class="skill-tags">
+                <span>Java</span>
+                <span>SQL</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-card">
+            <h3><i class="fas fa-code"></i> Frontend Development</h3>
+
+            <div class="skill-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>React.js</span>
+                <span>Bootstrap</span>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card">
+            <h3><i class="fas fa-server"></i> Backend Development</h3>
+
+            <div class="skill-tags">
+                <span>Spring Boot</span>
+                <span>Spring Security</span>
+                <span>JWT</span>
+                <span>REST APIs</span>
+                <span>Hibernate</span>
+                <span>JPA</span>
+                <span>JDBC</span>
+                <span>Microservices</span>
+            </div>
+        </div>
+
+        <!-- Database & Messaging -->
+        <div class="skill-card">
+            <h3><i class="fas fa-database"></i> Database & Messaging</h3>
+
+            <div class="skill-tags">
+                <span>MySQL</span>
+                <span>Redis</span>
+                <span>Apache Kafka</span>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+            <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Maven</span>
+                <span>Docker</span>
+                <span>Postman</span>
+                <span>IntelliJ IDEA</span>
+                <span>VS Code</span>
+            </div>
+        </div>
+
+        <!-- Programming Concepts -->
+        <div class="skill-card">
+            <h3><i class="fas fa-brain"></i> Programming Concepts</h3>
+
+            <div class="skill-tags">
+                <span>Object-Oriented Programming (OOP)</span>
+                <span>Data Structures & Algorithms</span>
+                <span>Problem Solving</span>
+                <span>Logical Thinking</span>
+            </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card">
+            <h3><i class="fas fa-users"></i> Soft Skills</h3>
+
+            <div class="skill-tags">
+                <span>Communication</span>
+                <span>Teamwork</span>
+                <span>Quick Learner</span>
+                <span>Adaptability</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- Projects Section -->
+<section id="projects">
+  <div class="projects-container">
+    <h2 class="projects-title">Projects</h2>
+
+    <div class="projects-grid">
+
+<!-- Project 1 -->
+      <div class="project-card">
+        <img src="image3.jpeg" class="project-img" />
+        <div class="project-content">
+        <h3>Education Payment System (Microservices + Kafka + Razorpay)</h3>
+<p>
+      Built a scalable microservices-based payment system using Spring Boot, Apache Kafka, and Razorpay integration.
+      The system handles payment processing, event-driven notifications, and email alerts using a distributed architecture.
+    </p>
+    <div class="tags">
+      <span class="tag purple">Spring Boot</span>
+      <span class="tag red">Microservices</span>
+      <span class="tag yellow">Apache Kafka</span>
+      <span class="tag blue">MySQL</span>
+      <span class="tag green">Docker</span>
+      <span class="tag orange">Razorpay API</span>
+    </div>
+
+          <div class="project-links">
+            <a href="#" class="btn-link">View Live</a>
+      <a href="https://github.com/Shevendra77/education-payment-system"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-link outline">
+        GitHub
+      </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="book1.jpg" class="project-img" />
+        <div class="project-content">
+          <h3>Book My Show Web Application</h3>
+          <p>A web-based movie ticket booking platform where users can browse movies, select seats, and book tickets online.</p>
+
+          <div class="tags">
+            <span class="tag blue">Java</span>
+            <span class="tag gray">SpringBoot</span>
+            <span class="tag purple">MySQL</span>
+          </div>
+
+          <div class="project-links">
+            <a href="#" class="btn-link">View Live</a>
+               <a href="https://github.com/Shevendra77/BookMyShow" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-link outline">
+                     GitHub
+                </a>          
+            </div>
+        </div>
+      </div>
+
+
+      
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="com.jpg" class="project-img" />
+        <div class="project-content">
+        <h3>E-Commerce Website</h3>
+        <p>Developed a full-stack e-commerce platform with product listing, cart functionality, and secure checkout system.</p>
+
+          <div class="tags">
+            <span class="tag blue">Frontend</span>
+            <span class="tag purple">SpringBoot</span>
+            <span class="tag yellow">Databases</span>
+          </div>
+
+          <div class="project-links">
+            <a href="#" class="btn-link">View Live</a>
+            <a href="https://github.com/Shevendra77/education-ECommerce" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-link outline">
+                     GitHub
+              </a>   
+          </div>
+        </div>
+      </div>
+      
+
+<!-- Project 4 -->
+<div class="project-card">
+  <img src="image4.jpeg" class="project-img" />
+  <div class="project-content">
+    <h3>Google Drive Clone</h3>
+    <p>
+      Built a cloud storage application inspired by Google Drive. 
+      Users can upload, organize, and manage files securely with a simple and responsive UI.
+      Implemented file handling and storage management features.
+    </p>
+    <div class="tags">
+      <span class="tag blue">Frontend</span>
+      <span class="tag purple">Backend</span>
+      <span class="tag cyan">File Storage</span>
+      <span class="tag yellow">UI/UX</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="btn-link">
+        View Live
+      </a>
+      <a href="https://github.com/Shevendra77/education-google-drive-clone"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-link outline">
+        GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+      
+      <!-- Project 5 -->
+      <div class="project-card">
+        <img src="image5.jpeg" class="project-img" />
+        <div class="project-content">
+          <h3>AI Resume Checker Website</h3>
+          <p>A web application that uses AI to analyze resumes and provide instant feedback on skills, keywords, and formatting.</p>
+
+          <div class="tags">
+            <span class="tag purple">Full-Stack</span>
+            <span class="tag cyan">In Progress</span>
+            <span class="tag gray">MySQL</span>
+              <span class="tag gray">Sprin AI</span>
+          </div>
+
+          <div class="project-links">
+            <a href="#" class="btn-link">View Live</a>
+             <a href="https://github.com/Shevendra77/resume_analyzer.git" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="btn-link outline">
+                     GitHub
+             </a>   
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- Project 6 -->
+<div class="project-card">
+  <img src="image6jpeg.jpeg" class="project-img" />
+
+  <div class="project-content">
+
+    <h3>AI ChatGPT Clone (GPT-Based Assistant)</h3>
+
+    <p>
+      Built an AI-powered chatbot similar to ChatGPT that can understand user queries and generate intelligent responses.
+      The system uses natural language processing concepts and provides conversational AI interaction for users.
+    </p>
+
+    <div class="tags">
+      <span class="tag purple">AI / ML</span>
+      <span class="tag blue">Frontend</span>
+      <span class="tag cyan">API Integration</span>
+      <span class="tag yellow">NLP</span>
+    </div>
+
+    <div class="project-links">
+
+      <a href="#" class="btn-link">
+        View Live
+      </a>
+
+      <a href="https://github.com/Shevendra77/spring-ai-assistant.git"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-link outline">
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+</div>
+      
+      <!-- Project 7 -->
+<div class="project-card">
+  <img src="image7.jpg" class="project-img" />
+  <div class="project-content">
+    <h3>Institute Resource Planner</h3>
+    <p>
+      Developed a smart institute resource planning system to manage classrooms, faculty schedules, and resource allocation efficiently.
+      The system helps automate scheduling, reduce conflicts, and improve institutional resource utilization.
+    </p>
+    <div class="tags">
+      <span class="tag blue">Frontend</span>
+      <span class="tag purple">Spring Boot</span>
+      <span class="tag cyan">Scheduling System</span>
+      <span class="tag yellow">Database Design</span>
+      <span class="tag green">Optimization</span>
+    </div>
+    <div class="project-links">
+      <a href="#" class="btn-link">
+        View Live
+      </a>
+      <a href="https://github.com/Shevendra77/institute-resource-planner"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn-link outline">
+        GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements" class="achievements-section">
+
+  <h2 class="section-title">Achievements & Activities</h2>
+ 
+
+  <div class="achievements-grid">
+
+    <div class="achievement-card">
+      <div class="icon">🏆</div>
+      <h3>Bosch Technical Training Program</h3>
+      <p>Gained hands-on experience and exposure to real-world engineering practices.</p>
+    </div>
+
+    <!-- Full Stack Java Developer -->
+    <div class="achievement-card">
+      <div class="icon">💻</div>
+      <h3>Full Stack Java Developer – Code for Success</h3>
+      <p>Completed full stack Java development training covering frontend, backend, and database integration.</p>
+    </div>
+
+
+        <!-- AWS Cloud Essentials -->
+    <div class="achievement-card">
+      <div class="icon">☁️</div>
+      <h3>AWS Cloud Essentials</h3>
+      <p>Completed foundational AWS training to understand cloud services and deployment.</p>
+    </div>
+
+     <!-- AWS Compute -->
+    <div class="achievement-card">
+      <div class="icon">⚡</div>
+      <h3>AWS Compute</h3>
+      <p>Learned about AWS compute services like EC2, Lambda, and scalable deployment solutions.</p>
+    </div>
+
+  </div>
+<!-- ================= Strengths Section ================= -->
+
+<section id="strengths" class="strengths-section">
+
+    <div class="strengths-container">
+
+        <h2 class="strengths-title">Why Work With Me</h2>
+
+        <p class="strengths-subtitle">
+            The qualities that help me build reliable software and continuously grow as a developer.
+        </p>
+
+        <div class="strengths-grid">
+
+            <!-- Card 1 -->
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    I enjoy solving coding challenges and building efficient solutions using DSA and logical thinking.
+                </p>
+
+                <span class="strength-badge">DSA • Logic</span>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+
+                <h3>Continuous Learning</h3>
+
+                <p>
+                    I continuously explore Java, Spring Boot, Microservices, Kafka, Docker, and modern backend technologies.
+                </p>
+
+                <span class="strength-badge">Always Learning</span>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <h3>Clean Code</h3>
+
+                <p>
+                    I write readable, maintainable, and scalable code by following best practices and clean architecture principles.
+                </p>
+
+                <span class="strength-badge">Best Practices</span>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="strength-card">
+                <div class="strength-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+
+                <h3>Team Collaboration</h3>
+
+                <p>
+                    I enjoy collaborating with others, sharing ideas, and contributing to successful software projects.
+                </p>
+
+                <span class="strength-badge">Communication</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= Beyond Coding ================= -->
+
+<section id="hobbies" class="hobbies-section">
+
+    <h2 class="section-title">Beyond Coding</h2>
+    <p class="section-subtitle">
+        Activities and interests that inspire me to grow as a developer and as an individual.
+    </p>
+
+    <div class="feature-grid">
+
+        <!-- Card 1 -->
+        <div class="feature-card">
+            <i class="fas fa-laptop-code feature-icon"></i>
+
+            <h3>Problem Solving</h3>
+
+            <p>
+                I regularly solve Data Structures & Algorithms problems on LeetCode to improve logical thinking and coding efficiency.
+            </p>
+
+            <span class="feature-tag">LeetCode • DSA • OOP</span>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card">
+            <i class="fas fa-graduation-cap feature-icon"></i>
+
+            <h3>Continuous Learning</h3>
+
+            <p>
+                I enjoy exploring Java, Spring Boot, Microservices, Kafka, Docker, and modern backend development practices.
+            </p>
+
+            <span class="feature-tag">Always Learning</span>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card">
+            <i class="fas fa-code-branch feature-icon"></i>
+
+            <h3>Building Projects</h3>
+
+            <p>
+                I enjoy developing real-world applications, experimenting with new technologies, and sharing projects on GitHub.
+            </p>
+
+            <span class="feature-tag">Java • Spring Boot</span>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card">
+            <i class="fas fa-baseball-ball feature-icon"></i>
+
+            <h3>Cricket & Fitness</h3>
+
+            <p>
+                Playing and watching cricket helps me stay active, improve teamwork, and maintain a healthy work-life balance.
+            </p>
+
+            <span class="feature-tag">Teamwork • Discipline</span>
+        </div>
+
+    </div>
+
+</section>
+
+ 
+<!-- ================= Education Section ================= -->
+
+<section id="education" class="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-grid">
+
+        <!-- B.Tech -->
+        <div class="edu-card">
+
+            <div class="edu-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+
+            <div class="edu-content">
+
+                <h3>B.Tech in Computer Science & Engineering</h3>
+
+                <h4>Sagar Institute of Science, Technology & Engineering (SISTec), Bhopal</h4>
+
+                <p><i class="fas fa-calendar-alt"></i> 2023 – Present</p>
+
+                <span class="edu-badge">CGPA: 7.65</span>
+
+            </div>
+
+        </div>
+
+        <!-- 12th -->
+
+        <div class="edu-card">
+
+            <div class="edu-icon">
+                <i class="fas fa-school"></i>
+            </div>
+
+            <div class="edu-content">
+
+                <h3>Senior Secondary (12th)</h3>
+
+                <h4>Saraswati Shishu Mandir H.S. School, Gunour, Panna</h4>
+
+                <p><i class="fas fa-calendar-alt"></i> 2021 – 2022</p>
+
+                <span class="edu-badge">82.8%</span>
+
+            </div>
+
+        </div>
+
+        <!-- ITI -->
+
+        <div class="edu-card">
+
+            <div class="edu-icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+
+            <div class="edu-content">
+
+                <h3>ITI – COPA (SCVT)</h3>
+
+                <h4>Government ITI, Gunour, Panna</h4>
+
+                <p><i class="fas fa-calendar-alt"></i> 2022 – 2023</p>
+
+                <span class="edu-badge">78.5%</span>
+
+            </div>
+
+        </div>
+
+        <!-- 10th -->
+
+        <div class="edu-card">
+
+            <div class="edu-icon">
+                <i class="fas fa-book-open"></i>
+            </div>
+
+            <div class="edu-content">
+
+                <h3>High School (10th)</h3>
+
+                <h4>Saraswati Gyan Mandir High School, Gunour, Panna</h4>
+
+                <p><i class="fas fa-calendar-alt"></i> 2019 – 2020</p>
+
+                <span class="edu-badge">83.8%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GitHub Statistics Section -->
+<section id="github-stats" class="github-stats-section">
+  <div class="github-stats-container">
+    <h2 class="github-stats-title">GitHub Statistics</h2>
+
+    <div class="github-stats-grid">
+
+      <div class="stat-card">
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="6" cy="6" r="2.5"/>
+            <circle cx="6" cy="18" r="2.5"/>
+            <circle cx="18" cy="9" r="2.5"/>
+            <path d="M6 8.5v7"/>
+            <path d="M6 12h6a3 3 0 003-3V9"/>
+          </svg>
+        </div>
+        <h3>Repositories</h3>
+        <div class="stat-number" id="stat-repos">--</div>
+        <p>Active projects on GitHub</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/>
+          </svg>
+        </div>
+        <h3>Stars</h3>
+        <div class="stat-number" id="stat-stars">--</div>
+        <p>Total stars across repos</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="9" cy="8" r="3"/>
+            <path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/>
+            <circle cx="17" cy="8" r="2.5"/>
+            <path d="M15.5 14.2c2.6.4 4.5 2.6 4.5 5.3"/>
+          </svg>
+        </div>
+        <h3>Followers</h3>
+        <div class="stat-number" id="stat-followers">--</div>
+        <p>Community followers</p>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="8 6 3 12 8 18"/>
+            <polyline points="16 6 21 12 16 18"/>
+            <line x1="13" y1="4" x2="11" y2="20"/>
+          </svg>
+        </div>
+        <h3>Contributions</h3>
+        <div class="stat-number" id="stat-contributions">--</div>
+        <p>Commits this year</p>
+      </div>
+
+    </div>
+
+    <!-- 👇 CTA banner cards ke NICHE, yahan add karo -->
+    <div class="github-cta-banner">
+      <p>Want to see more details? Visit my full GitHub profile:</p>
+      <a href="https://github.com/Shevendra77" target="_blank" rel="noopener noreferrer" class="github-cta-btn">
+        <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                   0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+                   -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07
+                   -1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+                   .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82
+                   2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+                   .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        View GitHub Profile
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+
+  <h2 class="contact-title">Contact Me</h2>
+
+  <div class="contact-wrapper">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+  <h3>Let's Connect 🚀</h3>
+  <p>Hello! I'm a motivated Computer Science student, passionate about building projects, learning new technologies, and solving real-world problems. I'm eager to take on internships, collaborate on innovative projects, and gain valuable experience in the tech world.</p>
+
+  <p><strong>Email:</strong> <a href="mailto:shevendrachandel@gmail.com">shevendrachandel@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+917723883326">+91 7723883326</a></p>
+  <p><strong>Location:</strong> Bhopal, India</p>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/shevendra-singh-chandel-ab0b75309/" target="_blank">💼 LinkedIn</a>
+    <a href="https://github.com/Shevendra77" target="_blank">🐙 GitHub</a>
+  </div>
+</div>
+
+    <!-- RIGHT SIDE FORM -->
+    <div class="contact-box">
+      <form id="contact-form">
+
+    <div class="input-group">
+        <input type="text" name="from_name" required>
+        <label>Your Name</label>
+    </div>
+
+    <div class="input-group">
+        <input type="email" name="from_email" required>
+        <label>Your Email</label>
+    </div>
+
+    <div class="input-group">
+        <input type="text" name="subject" required>
+        <label>Subject</label>
+    </div>
+
+    <div class="input-group">
+        <textarea name="message" rows="5" required></textarea>
+        <label>Your Message</label>
+    </div>
+
+    <button type="submit" class="contact-btn">
+        Send Message
+    </button>
+
+</form>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+
+  <div class="footer-top">
+
+    <!-- Column 1: About -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Shevendra's Portfolio</h3>
+      <p class="footer-about">
+        Thank you for visiting my personal portfolio website. Connect with me over socials.
+      </p>
+      <p class="footer-about">
+        Keep Rising 🚀. Feel free to reach out anytime!
+      </p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a></li>
+        <li><a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a></li>
+        <li><a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a></li>
+        <li><a href="#projects"><i class="fas fa-chevron-circle-right"></i> Projects</a></li>
+        <li><a href="#achievements"><i class="fas fa-chevron-circle-right"></i> Achievements</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Contact Info -->
+    <div class="footer-col">
+      <h3 class="footer-heading">Contact Info</h3>
+      <ul class="footer-contact">
+        <li><i class="fas fa-phone-alt"></i> +91 7723883326</li>
+        <li><i class="fas fa-envelope"></i> shevendrachandel@gmail.com</li>
+        <li><i class="fas fa-map-marker-alt"></i> Bhopal, India</li>
+      </ul>
+
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/shevendra-singh-chandel-ab0b75309/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Shevendra77" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:shevendrachandel@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://instagram.com/your-instagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <p class="footer-bottom">
+    Designed With ❤️ By <span class="footer-name">Shevendra Singh</span>
+  </p>
+
+</footer>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>
