@@ -160,7 +160,7 @@ Feel free to fork this repository and submit a pull request.
 
 ## ⭐ Support
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub ..
 
 ---
 
