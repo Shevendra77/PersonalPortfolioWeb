@@ -4,9 +4,9 @@ A modern, responsive, and professional portfolio website designed to showcase my
 
 ## 🚀 Live Demo
 
-🔗 **Live Portfolio:** https://shevendra77.github.io/PersonalPortfolio/
+🔗 **Live Portfolio:**  https://shevendra77.github.io/PersonalPortfolioWeb/
 
-👉 [View Portfolio](https://shevendra77.github.io/PersonalPortfolio/)
+👉 [View Portfolio]( https://shevendra77.github.io/PersonalPortfolioWeb/)
 
 ---
 
@@ -160,7 +160,7 @@ Feel free to fork this repository and submit a pull request.
 
 ## ⭐ Support
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub ..
 
 ---
 
