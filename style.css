@@ -2604,27 +2604,3 @@ color:#818cf8;
     }
 
 }
-
-/* ================= Education Badge ================= */
-
-.edu-badge {
-    display: inline-block !important;
-    margin-top: 12px;
-    padding: 7px 16px;
-
-    background: #2563eb !important;
-    color: #ffffff !important;
-
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.4;
-
-    border-radius: 20px;
-    border: 2px solid #2563eb;
-
-    visibility: visible !important;
-    opacity: 1 !important;
-
-    position: relative;
-    z-index: 10;
-}
