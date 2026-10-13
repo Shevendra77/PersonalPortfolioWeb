@@ -2604,3 +2604,25 @@ color:#818cf8;
     }
 
 }
+
+
+/* Project Image */
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Project Card */
+.project-card {
+    overflow: hidden;
+}
+
+/* Responsive Image */
+@media (max-width: 768px) {
+    .project-img {
+        height: 180px;
+    }
+}
